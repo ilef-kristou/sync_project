@@ -3,9 +3,9 @@
         <class>com.example.demo.model.ChangeLog</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=yourDatabaseName"/>
-            <property name="javax.persistence.jdbc.user" value="yourUsername"/>
-            <property name="javax.persistence.jdbc.password" value="yourPassword"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://ILEFKRISTOU;databaseName=test1"/>
+            <property name="javax.persistence.jdbc.user" value="ilefkristou"/>
+            <property name="javax.persistence.jdbc.password" value="ilef123"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
