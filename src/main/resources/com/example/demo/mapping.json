@@ -1,0 +1,43 @@
+{
+  "mappings": [
+    {
+      "sourceTable": "employees",
+      "targetTable": "staff",
+      "fields": {
+        "id": "staff_id",
+        "first_name": "given_name",
+        "last_name": "family_name",
+        "email": "email_address",
+        "department_id": "dept_id"
+      }
+    },
+    {
+      "sourceTable": "departments",
+      "targetTable": "dept",
+      "fields": {
+        "id": "dept_id",
+        "name": "dept_name",
+        "location": "dept_location"
+      }
+    },
+    {
+      "sourceTable": "projects",
+      "targetTable": "assignments",
+      "fields": {
+        "id": "assignment_id",
+        "name": "project_name",
+        "start_date": "start",
+        "end_date": "end"
+      }
+    },
+    {
+      "sourceTable": "employee_projects",
+      "targetTable": "staff_assignments",
+      "fields": {
+        "employee_id": "staff_id",
+        "project_id": "assignment_id",
+        "role": "position"
+      }
+    }
+  ]
+}
